@@ -1,0 +1,20 @@
+.title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+table {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.table-name {
+    text-align: left !important;
+    width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+    svg {
+        stroke: white !important;
+    }
+}

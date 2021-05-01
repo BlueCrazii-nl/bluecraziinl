@@ -18,4 +18,5 @@ pip3 install jinja2
 python3 main.py
 ```
 
-Output is `index.html` and the `watch` directory.
+Output is `index.html` and the `watch`, `sets` directories.
+(Just copying the entire directory to your server root is probably the easiest way)

@@ -1,21 +1,38 @@
 livesets_menu:
   - name: "Qapital 2020"
     link: "Qapital"
+    videos: []
+
   - name: "SuperSized KingsDay 2020"
     link: "SSKD"
+    videos: []
+
   - name: "Titanium 2020"
     link: "titanium"
+    videos: []
 
 livesets_cards:
   - name: "SuperSized KingsDay 2021"
     link: "SSKD2021"
     banner: "sskd2021banner.jpg"
+    poster: "https://cdn.bluecrazii.nl/supersizedkingsday2021.jpg"
+    videos:
+      - name: "DJ Jantje"
+        videourl: "SSKD2021/DJ Jantje @ Supersized Kingsday 2021 (2021-04-27)"
+      - name: "Deepack"
+        videourl: "SSKD2021/Deepack @ Supersized Kingsday 2021 (2021-04-27)"
+      - name: "Ransom"
+        videourl: "SSKD2021/Ransom @ Supersized Kingsday 2021 (2021-04-27)"
+
   - name: "Rebirth 2021"
     link: "rebirth2021"
     banner: "REBiRTH-Festival-Livestream.jpg"
+    videos: []
+
   - name: "HSU LIVE"
     link: "HSU"
     banner: "HSU-.webp"
+    videos: []
 
 streams:
   - name: "Formula1 NL"
@@ -24,12 +41,14 @@ streams:
     filetype: "m3u8"
     poster: "https://bluecrazii.nl/logo.png"
     online: false
+
   - name: "Formula1 ENG"
     link: "f1eng"
     videourl: "livestreams/hls/F1ENG"
     filetype: "m3u8"
     poster: "https://bluecrazii.nl/logo.png"
     online: false
+
   - name: "Festival"
     link: "festival"
     videourl: "livestreams/dash/Festivals"

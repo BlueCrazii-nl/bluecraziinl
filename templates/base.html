@@ -24,7 +24,7 @@
 <body>
     <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="/index">
+            <a class="navbar-item" href="/">
                 <span class="logo">BlueCrazii.nl</span>
             </a>
             <div class="navbar-burger" data-target="navbarContent">
@@ -51,7 +51,7 @@
                     <a class="navbar-link">Livesets</a>
                     <div class="navbar-dropdown is-boxed">
                         {% for set in data.livesets_menu %}
-                        <a class="navbar-item" href="/{{set.link}}">{{set.name}}</a>
+                        <a class="navbar-item" href="/sets/{{set.link}}">{{set.name}}</a>
                         {% endfor %}
                     </div>
                 </div>

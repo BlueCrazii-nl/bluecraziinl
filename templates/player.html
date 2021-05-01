@@ -14,7 +14,7 @@
 
         <source src="{{data.cdnurl}}/{{stream.videourl}}.{{stream.filetype}}" type="application/dash+xml" label="auto" res="1" />
 
-        {% for res in data.resolutions %}
+        {% for res in stream.resolutions %}
             <source src="{{data.cdnurl}}/{{stream.videourl}}_{{res}}/index.{{stream.filetype}}" type="application/dash+xml" label="{{res}}P"
                 res="{{loop.index0 + 2}}" />
         {% endfor %}

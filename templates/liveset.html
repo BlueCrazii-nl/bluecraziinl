@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}{{ set.name }}{% endblock %}
+{% block css %}liveset{% endblock %}
+
+{% block content %}
+<div class="container">
+    <p class="title is-3">{{set.name}}</p>
+
+    <table class="table is-striped is-fullwidth">
+        <thead>
+            <tr>
+                <th class="table-name">Name</th>
+                <th><abbr title="Download Video">Video</abbr></th>
+                <th><abbr title="Download MP3 Audio">MP3</abbr></th>
+                <th><abbr title="Watch in your browser">Watch</abbr></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for vid in set.videos %}
+            <tr>
+                <td class="table-name">{{ vid.name}} @ {{ set.name }}</td>
+                <td class="table-icon"><a href="{{data.cdnurl}}/{{vid.videourl}}.mkv">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="32" height="32"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+                        <polyline points="7 11 12 16 17 11" />
+                        <line x1="12" y1="4" x2="12" y2="16" />
+                    </svg> 
+                </a></td>
+                <td class="table-icon"><a href="{{data.cdnurl}}/{{vid.videourl}}.mp3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="32" height="32"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+                        <polyline points="7 11 12 16 17 11" />
+                        <line x1="12" y1="4" x2="12" y2="16" />
+                    </svg> 
+                </a></td>
+                <td class="table-icon"><a href="/watch/{{set.link}}/{{vid.name}}">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play" width="32" height="32"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M7 4v16l13 -8z" />
+                    </svg> 
+                </a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
