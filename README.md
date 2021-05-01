@@ -2,7 +2,7 @@
 
 The BlueFlix '3.0' frontend found at [bluecrazii.nl](https://bluecrazii.nl).
 
-Created with Bulma, without any JS (yet, anyway).
+Created with Bulma and minimal vanilla JS.
 
 ## Build
 
