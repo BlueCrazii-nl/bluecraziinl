@@ -48,7 +48,8 @@ def liveset(sets):
             vid['resolutions'] = []
             vid['filetype'] = vid['videotype']
             vid['videourl'] = vid['url']
-            vid['poster'] = set['poster']
+            if 'poster' in set:
+                vid['poster'] = set['poster']
             name = vid['name']
             vid['name'] = name + ' @ ' + set['name']
             write(tem('player').render(data=data, stream=vid), f'watch/{set["link"]}/{name}')

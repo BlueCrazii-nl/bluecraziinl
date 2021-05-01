@@ -7,21 +7,966 @@ discord:
 # A list of livesets to show in the nav bar dropdown window
 # TODO: Why is this separate from the ones on the main page?
 livesets_menu:
-  - name: "Qapital 2020" # Name displayed everywhere
-    link: "Qapital" # Name used for URLs/template file names
-    poster: "https://cdn.bluecrazii.nl/Qapital/QONNECT-QAPITAL-WATCHNOW-QAP-1920x1080px.png" # Full URL of video player poster
-    videos: # All videos that are part of this set
-      - name: "Degos & Re-Done" # Name of the video, will have '@ $set.name' appended to it
-        url: "SSKD2021/DJ Jantje @ Supersized Kingsday 2021 (2021-04-27)" # URL on the CDN without extension; audio always '.mp3'
-        videotype: "mkv" # Extension for video file
-
-  - name: "SuperSized KingsDay 2020"
-    link: "SSKD"
-    videos: []
-
-  - name: "Titanium 2020"
-    link: "titanium"
-    videos: []
+  - link: APEX
+    name: APEX
+    videos:
+    - name: CRYEX
+      url: APEX/CRYEX @ APEX
+      videotype: mkv
+    - name: QRIMINAL
+      url: APEX/QRIMINAL @ APEX
+      videotype: mkv
+    - name: RESSURECTZ
+      url: APEX/RESSURECTZ @ APEX
+      videotype: mkv
+    - name: THE CHOSEN KNIGHTS
+      url: APEX/THE CHOSEN KNIGHTS @ APEX
+      videotype: mkv
+    - name: VASTO
+      url: APEX/VASTO @ APEX
+      videotype: mkv
+  - link: DEFQON.1 2020
+    name: Defqon
+    videos:
+    - name: Act of Rage
+      url: DEFQON.1 2020/Act of Rage @ Defqon.1 at Home, Blue (2020-06-27)
+      videotype: mkv
+    - name: 'BLACK '
+      url: DEFQON.1 2020/BLACK  @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: BLACK
+      url: DEFQON.1 2020/BLACK @ DEFQON.1 @ HOME1
+      videotype: mkv
+    - name: BLUE
+      url: DEFQON.1 2020/BLUE @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: BLUE
+      url: DEFQON.1 2020/BLUE @ DEFQON.1 @ HOME1
+      videotype: mkv
+    - name: D-BLOCK & S-TE-FAN
+      url: DEFQON.1 2020/D-BLOCK & S-TE-FAN @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: DJ Promo
+      url: DEFQON.1 2020/DJ Promo @ Defqon.1 at Home
+      videotype: mkv
+    - name: GHOST STORIES
+      url: DEFQON.1 2020/GHOST STORIES @ DEFQON.1 @ HOME1
+      videotype: mkv
+    - name: GOLD
+      url: DEFQON.1 2020/GOLD @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: HEADHUNTERZ
+      url: DEFQON.1 2020/HEADHUNTERZ @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: INDIGO
+      url: DEFQON.1 2020/INDIGO @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: LEGENDS
+      url: DEFQON.1 2020/LEGENDS @ DEFQON.1 @ HOME1
+      videotype: mkv
+    - name: MAGENTA
+      url: DEFQON.1 2020/MAGENTA @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: MIDNIGHT MAYHAM
+      url: DEFQON.1 2020/MIDNIGHT MAYHAM @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: MIDNIGHT MAYHEM
+      url: DEFQON.1 2020/MIDNIGHT MAYHEM @ DEFQON.1 @ HOME1
+      videotype: mkv
+    - name: N-VITRAL
+      url: DEFQON.1 2020/N-VITRAL @ DEFQON.1 @ HOME @ HOME
+      videotype: mkv
+    - name: PEACOCK IN CONCERT
+      url: DEFQON.1 2020/PEACOCK IN CONCERT @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: PHUTURE NOIZE
+      url: DEFQON.1 2020/PHUTURE NOIZE @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: POWER HOUR
+      url: DEFQON.1 2020/POWER HOUR @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: PURPLE
+      url: DEFQON.1 2020/PURPLE @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: Pavo
+      url: DEFQON.1 2020/Pavo @ Defqon.1 at Home
+      videotype: mkv
+    - name: RED
+      url: DEFQON.1 2020/RED @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: RED
+      url: DEFQON.1 2020/RED @ DEFQON.1 @ HOME1
+      videotype: mkv
+    - name: SEFA
+      url: DEFQON.1 2020/SEFA @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: SILVER
+      url: DEFQON.1 2020/SILVER @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: SUB ZERO PROJECT
+      url: DEFQON.1 2020/SUB ZERO PROJECT @ HOME
+      videotype: mkv
+    - name: Sunny D
+      url: DEFQON.1 2020/Sunny D @ Defqon.1 at Home1
+      videotype: mkv
+    - name: THE ANTHEM MOMENT
+      url: DEFQON.1 2020/THE ANTHEM MOMENT @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: THE BEST OF THE ENDSHOW
+      url: DEFQON.1 2020/THE BEST OF THE ENDSHOW @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: THE CLOSING RITUAL
+      url: DEFQON.1 2020/THE CLOSING RITUAL @ DEFQON.1 @ HOME1
+      videotype: mkv
+    - name: THE DARKRAVER & KORSAKOFF
+      url: DEFQON.1 2020/THE DARKRAVER & KORSAKOFF @  DEFQON.1 @ HOME
+      videotype: mkv
+    - name: The Viper
+      url: DEFQON.1 2020/The Viper @ Defqon.1 at Home
+      videotype: mkv
+    - name: UV
+      url: DEFQON.1 2020/UV @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: UV
+      url: DEFQON.1 2020/UV @ DEFQON.1 @ HOME1
+      videotype: mkv
+    - name: WARRIOR WORKOUT
+      url: DEFQON.1 2020/WARRIOR WORKOUT @ DEFQON.1 @ HOME
+      videotype: mkv
+    - name: YELLOW
+      url: DEFQON.1 2020/YELLOW @ DEFQON.1 @ HOME
+      videotype: mkv
+  - link: Decibeloutdoor2020
+    name: 'Decibel Outdoor 2020, Stay Loud '
+    videos:
+    - name: B-Front & Pleuni
+      url: Decibeloutdoor2020/B-Front & Pleuni @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: Brennan Heart
+      url: Decibeloutdoor2020/Brennan Heart @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: Deadly Guns
+      url: Decibeloutdoor2020/Deadly Guns @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: Frequencerz & Rejecta
+      url: Decibeloutdoor2020/Frequencerz & Rejecta @ Decibel Outdoor 2020, Stay Loud
+        (2020-08-22)
+      videotype: mkv
+    - name: Panic & Promo
+      url: Decibeloutdoor2020/Panic & Promo @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: 'Pussy Lounge Madness '
+      url: Decibeloutdoor2020/Pussy Lounge Madness (Ruthless, Darkraver, The Viper &
+        Paul Elstak) @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: Radical Redemption
+      url: Decibeloutdoor2020/Radical Redemption @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: Ran-D
+      url: Decibeloutdoor2020/Ran-D @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: Rebelion & Warface
+      url: Decibeloutdoor2020/Rebelion & Warface @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: Sub Zero Project
+      url: Decibeloutdoor2020/Sub Zero Project @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: Tha Playah
+      url: Decibeloutdoor2020/Tha Playah @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: The Pitcher
+      url: Decibeloutdoor2020/The Pitcher @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+    - name: Zany
+      url: Decibeloutdoor2020/Zany @ Decibel Outdoor 2020, Stay Loud (2020-08-22)
+      videotype: mkv
+  - link: Dominator2020
+    name: 'Dominator 2020 - We Will Prevail '
+    videos:
+    - name: Angerfist
+      url: Dominator2020/Angerfist @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Barber
+      url: Dominator2020/Barber @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: DRS
+      url: Dominator2020/DRS @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Deadly Guns
+      url: Dominator2020/Deadly Guns @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Dither
+      url: Dominator2020/Dither @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Drokz
+      url: Dominator2020/Drokz @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: F.Noize
+      url: Dominator2020/F.Noize @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Furyan
+      url: Dominator2020/Furyan @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Mad Dog
+      url: Dominator2020/Mad Dog @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Miss K8
+      url: Dominator2020/Miss K8 @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: N-Vitral
+      url: Dominator2020/N-Vitral @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Nosferatu
+      url: Dominator2020/Nosferatu @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Re-Style
+      url: Dominator2020/Re-Style @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+    - name: Tha Playah
+      url: Dominator2020/Tha Playah @ Dominator 2020 - We Will Prevail (2020-07-18)
+      videotype: mkv
+  - link: HSU
+    name: HSU LIVE AUSTRLIA DAY
+    videos:
+    - name: BRENNAN HEART
+      url: HSU/BRENNAN HEART @ HSU LIVE AUSTRLIA DAY
+      videotype: mkv
+    - name: D-STURB
+      url: HSU/D-STURB @ HSU LIVE AUSTRLIA DAY
+      videotype: mkv
+    - name: DR. PEACOCK
+      url: HSU/DR. PEACOCK @ HSU LIVE AUSTRLIA DAY
+      videotype: mkv
+    - name: RADICAL REDEMPTION
+      url: HSU/RADICAL REDEMPTION @ HSU LIVE AUSTRLIA DAY
+      videotype: mkv
+    - name: ROOLER
+      url: HSU/ROOLER @ HSU LIVE AUSTRLIA DAY
+      videotype: mkv
+    - name: SUB ZERO PROJECT
+      url: HSU/SUB ZERO PROJECT @ HSU LIVE AUSTRLIA DAY
+      videotype: mkv
+    - name: THE PROPHET
+      url: HSU/THE PROPHET @ HSU LIVE AUSTRLIA DAY
+      videotype: mkv
+    - name: Team ozzie
+      url: HSU/Team ozzie @ HSU LIVE AUSTRLIA DAY
+      videotype: mkv
+  - link: IMPERATORZ
+    name: IMPERATORZ
+    videos:
+    - name: AVERSION
+      url: IMPERATORZ/AVERSION @ IMPERATORZ
+      videotype: mkv
+    - name: CHAOTIC HOSTILITY
+      url: IMPERATORZ/CHAOTIC HOSTILITY @ IMPERATORZ
+      videotype: mkv
+    - name: DELETE
+      url: IMPERATORZ/DELETE @ IMPERATORZ
+      videotype: mkv
+    - name: DELETE B2B IMPERATORZ
+      url: IMPERATORZ/DELETE B2B IMPERATORZ @ IMPERATORZ
+      videotype: mkv
+    - name: IMPERATORZ
+      url: IMPERATORZ/IMPERATORZ @ IMPERATORZ
+      videotype: mkv
+    - name: NEROZ
+      url: IMPERATORZ/NEROZ @ IMPERATORZ
+      videotype: mkv
+  - link: Intents
+    name: 'The Online Intents Festival 2020, Outdoor Mainstage '
+    videos:
+    - name: 2-Sidez
+      url: Intents/2-Sidez @ The Online Intents Festival 2020, Outdoor Mainstage (2020-06-06)
+      videotype: mkv
+    - name: Act of Rage vs Rejecta
+      url: Intents/Act of Rage vs Rejecta @ The Online Intents Festival 2020, Outdoor
+        Mainstage (2020-06-06)
+      videotype: mkv
+    - name: B-Front & KELTEK
+      url: Intents/B-Front & KELTEK @ The Online Intents Festival 2020, Outdoor Mainstage
+        (2020-06-06)
+      videotype: mkv
+    - name: Bloodlust
+      url: Intents/Bloodlust @ The Online Intents Festival 2020, Indoor Stage (2020-06-06)
+      videotype: mkv
+    - name: Bulletproof
+      url: Intents/Bulletproof @ The Online Intents Festival 2020, Indoor Stage (2020-06-06)
+      videotype: mkv
+    - name: Captain Karnastyle
+      url: Intents/Captain Karnastyle @ The Online Intents Festival 2020, Outdoor Mainstage
+        (2020-06-06)
+      videotype: mkv
+    - name: D-Block & S-te-Fan
+      url: Intents/D-Block & S-te-Fan @ The Online Intents Festival 2020, Outdoor Mainstage
+        (2020-06-06)
+      videotype: mkv
+    - name: D-Sturb
+      url: Intents/D-Sturb @ The Online Intents Festival 2020, Outdoor Mainstage (2020-06-06)
+      videotype: mkv
+    - name: Deadly Guns
+      url: Intents/Deadly Guns @ The Online Intents Festival 2020, Indoor Stage (2020-06-06)
+      videotype: mkv
+    - name: Endshow
+      url: Intents/Endshow @ The Online Intents Festival 2020, Outdoor Mainstage (2020-06-06)
+      videotype: mkv
+    - name: Frequencerz
+      url: Intents/Frequencerz @ The Online Intents Festival 2020, Outdoor Mainstage
+        (2020-06-06)
+      videotype: mkv
+    - name: Furyan
+      url: Intents/Furyan @ The Online Intents Festival 2020, Indoor Stage (2020-06-06)
+      videotype: mkv
+    - name: Killshot
+      url: Intents/Killshot @ The Online Intents Festival 2020, Indoor Stage (2020-06-06)
+      videotype: mkv
+    - name: Mark with a K
+      url: Intents/Mark with a K @ The Online Intents Festival 2020, Outdoor Mainstage
+        (2020-06-06)
+      videotype: mkv
+    - name: Partyraiser
+      url: Intents/Partyraiser @ The Online Intents Festival 2020 Indoor Stage (2020-06-06)
+      videotype: mkv
+    - name: Rebelion
+      url: Intents/Rebelion @ The Online Intents Festival 2020, Indoor Stage (2020-06-06)
+      videotype: mkv
+    - name: Spitnoise
+      url: Intents/Spitnoise @ The Online Intents Festival 2020, Indoor Stage (2020-06-06)
+      videotype: mkv
+    - name: The Online Festival - Experience the Feeling of Intents Festival - Da Tweekaz
+      url: Intents/The Online Festival - Experience the Feeling of Intents Festival
+        - Da Tweekaz
+      videotype: mkv
+    - name: The Online Festival - Experience the Feeling of Intents Festival - Devin
+        Wild
+      url: Intents/The Online Festival - Experience the Feeling of Intents Festival
+        - Devin Wild
+      videotype: mkv
+    - name: The Online Festival - Experience the Feeling of Intents Festival - Hard
+        Driver
+      url: Intents/The Online Festival - Experience the Feeling of Intents Festival
+        - Hard Driver
+      videotype: mkv
+    - name: The Online Festival - Experience the Feeling of Intents Festival - Paul
+        Elstak
+      url: Intents/The Online Festival - Experience the Feeling of Intents Festival
+        - Paul Elstak
+      videotype: mkv
+    - name: The Online Festival - Experience the Feeling of Intents Festival - Radical
+        Redemption
+      url: Intents/The Online Festival - Experience the Feeling of Intents Festival
+        - Radical Redemption
+      videotype: mkv
+    - name: The Online Festival - Experience the Feeling of Intents Festival - Sub Zero
+        Project
+      url: Intents/The Online Festival - Experience the Feeling of Intents Festival
+        - Sub Zero Project
+      videotype: mkv
+    - name: Unresolved
+      url: Intents/Unresolved @ The Online Intents Festival 2020, Indoor Stage (2020-06-06)
+      videotype: mkv
+    - name: Warface
+      url: Intents/Warface @ The Online Intents Festival 2020, Outdoor Mainstage (2020-06-06)
+      videotype: mkv
+  - link: NYE
+    name: 'QONNECT New Year''s Eve Special '
+    videos:
+    - name: Adaro & Endymion
+      url: NYE/Adaro & Endymion @ QONNECT New Year's Eve Special (2020-12-31)
+      videotype: mkv
+    - name: COONE - ALBUM SHOWCASE
+      url: NYE/COONE - ALBUM SHOWCASE @ Tomorrowland (31-12-2020)
+      videotype: mp4
+    - name: Coone Album Showcase
+      url: NYE/Coone Album Showcase @ Tomorrowland (31-12-2020)
+      videotype: mp4
+    - name: D-Block & S-te-Fan
+      url: NYE/D-Block & S-te-Fan @ QONNECT New Year's Eve Special (2020-12-31)
+      videotype: mkv
+    - name: DA TWEEKAZ
+      url: NYE/DA TWEEKAZ @ TOMORROWLAND (31-12-2020)
+      videotype: mp4
+    - name: DBSTF
+      url: NYE/DBSTF @ Tomorrowland (31-12-2020)
+      videotype: mp4
+    - name: Da Tweekaz
+      url: NYE/Da Tweekaz @ Tmorrowland (31-12-2020)
+      videotype: mp4
+    - name: Devin Wild
+      url: NYE/Devin Wild @ QONNECT New Year's Eve Special (2020-12-31)
+      videotype: mkv
+    - name: Dimitri K
+      url: NYE/Dimitri K @ Titanium
+      videotype: mp4
+    - name: Dither
+      url: NYE/Dither @ QONNECT New Year's Eve Special (2020-12-31)
+      videotype: mkv
+    - name: GPF-NYE
+      url: NYE/GPF-NYE
+      videotype: mkv
+    - name: GPF-NYE1
+      url: NYE/GPF-NYE1
+      videotype: mkv
+    - name: GROUND ZERO
+      url: NYE/GROUND ZERO
+      videotype: mp4
+    - name: H4H NYE
+      url: NYE/H4H NYE
+      videotype: mkv
+    - name: H4H NYE1
+      url: NYE/H4H NYE1
+      videotype: mkv
+    - name: HDKTN_NYE
+      url: NYE/HDKTN_NYE
+      videotype: mkv
+    - name: HDKTN_NYE1
+      url: NYE/HDKTN_NYE1
+      videotype: mkv
+    - name: HSU-LIVE
+      url: NYE/HSU-LIVE
+      videotype: mkv
+    - name: HSU-LIVE1
+      url: NYE/HSU-LIVE1
+      videotype: mkv
+    - name: Headhunterz
+      url: NYE/Headhunterz @ QONNECT New Year's Eve Special (2020-12-31)
+      videotype: mkv
+    - name: Hellbound
+      url: NYE/Hellbound
+      videotype: mp4
+    - name: IMPERATORZ NYE
+      url: NYE/IMPERATORZ NYE
+      videotype: mkv
+    - name: I am hardstyle
+      url: NYE/I am hardstyle @ Tomorrowland (31-12-2020)
+      videotype: mp4
+    - name: MultiGroov
+      url: NYE/MultiGroov
+      videotype: mp4
+    - name: PRSPCT NYE
+      url: NYE/PRSPCT NYE
+      videotype: mkv
+    - name: PRSPCT NYE1
+      url: NYE/PRSPCT NYE1
+      videotype: mkv
+    - name: 'Q-dance Hardstyle Top 100 2020, Countdown & New Year Celebration '
+      url: NYE/Q-dance Hardstyle Top 100 2020, Countdown & New Year Celebration (2020-12-31)
+      videotype: mkv
+    - name: Ran-D & Hard Driver
+      url: NYE/Ran-D & Hard Driver @ QONNECT New Year's Eve Special (2020-12-31)
+      videotype: mkv
+    - name: SUPERBASH NYE
+      url: NYE/SUPERBASH NYE
+      videotype: mp4
+    - name: Sound Rush & KELTEK
+      url: NYE/Sound Rush & KELTEK @ QONNECT New Year's Eve Special (2020-12-31)
+      videotype: mkv
+    - name: Sub Zero Project
+      url: NYE/Sub Zero Project @ Tomorrowland (31-12-2020)
+      videotype: mp4
+    - name: TOF NYE
+      url: NYE/TOF NYE
+      videotype: mkv
+    - name: Vertile & Voidax
+      url: NYE/Vertile & Voidax @ QONNECT New Year's Eve Special (2020-12-31)
+      videotype: mkv
+    - name: Warface
+      url: NYE/Warface @ QONNECT New Year's Eve Special (2020-12-31)
+      videotype: mkv
+  - link: Qapital
+    name: QONNECT x QAPITAL
+    videos:
+    - name: Act Of Rage
+      url: Qapital/Act Of Rage @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Adaro
+      url: Qapital/Adaro @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Apexx
+      url: Qapital/Apexx @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: B-Front
+      url: Qapital/B-Front @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Degos & Re-Done
+      url: Qapital/Degos & Re-Done @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Hard Driver
+      url: Qapital/Hard Driver @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Imperatorz
+      url: Qapital/Imperatorz @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Invector
+      url: Qapital/Invector @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: MYST
+      url: Qapital/MYST @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Rebelion
+      url: Qapital/Rebelion @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Rejecta
+      url: Qapital/Rejecta @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Rooler
+      url: Qapital/Rooler @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: The Qreator
+      url: Qapital/The Qreator @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Thyron
+      url: Qapital/Thyron @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: Vertile
+      url: Qapital/Vertile @ QONNECT x QAPITAL
+      videotype: mp4
+    - name: bloodlust
+      url: Qapital/bloodlust @ QONNECT x QAPITAL
+      videotype: mp4
+  - link: Qonnect
+    name: 'QONNECT '
+    videos:
+    - name: ADARO & DIGITAL PUNK
+      url: Qonnect/ADARO & DIGITAL PUNK @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: ADENALIZE
+      url: Qonnect/ADENALIZE @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: ANDY SVGE
+      url: Qonnect/ANDY SVGE @ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: AUDIOTRICZ
+      url: Qonnect/AUDIOTRICZ @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: Adaro
+      url: Qonnect/Adaro @ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: B-FRONT & ADRENALIZE
+      url: Qonnect/B-FRONT & ADRENALIZE @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: BASS MODULATORS
+      url: Qonnect/BASS MODULATORS @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: CRYPTON
+      url: Qonnect/CRYPTON @ QONNECT X QORE
+      videotype: mkv
+    - name: DEETOX
+      url: Qonnect/DEETOX @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: DITHER
+      url: Qonnect/DITHER @ QONNECT X QORE
+      videotype: mkv
+    - name: Digital Punk
+      url: Qonnect/Digital Punk @ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: ENDYMION
+      url: Qonnect/ENDYMION @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: FRONTLINER
+      url: Qonnect/FRONTLINER @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: 'JAY REEVE '
+      url: Qonnect/JAY REEVE  @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: Korsakoff
+      url: Qonnect/Korsakoff @ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: MAX ENFORCER
+      url: Qonnect/MAX ENFORCER @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: 'Mad Dog@ Qonnect '
+      url: Qonnect/Mad Dog@ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: NOSFERATU
+      url: Qonnect/NOSFERATU @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: OPHIDIAN
+      url: Qonnect/OPHIDIAN @ QONNECT X QORE
+      videotype: mkv
+    - name: PARTYRAISER
+      url: Qonnect/PARTYRAISER @ QONNECT X QORE
+      videotype: mkv
+    - name: 'QONNECT x Dr. Peacock 10 Years '
+      url: Qonnect/QONNECT x Dr. Peacock 10 Years (5 Hour Solo Set)
+      videotype: mkv
+    - name: Ran-D
+      url: Qonnect/Ran-D @ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: Rebelion
+      url: Qonnect/Rebelion @ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: SPITNOISE
+      url: Qonnect/SPITNOISE @ QONNECT X QORE
+      videotype: mkv
+    - name: Sephyx
+      url: Qonnect/Sephyx @ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: Sound Rush
+      url: Qonnect/Sound Rush @ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: THE PROPHET
+      url: Qonnect/THE PROPHET @ QONNECT (30-05-2020)
+      videotype: mkv
+    - name: UNIFIRE
+      url: Qonnect/UNIFIRE @ QONNECT X QORE
+      videotype: mkv
+    - name: WASTED MIND
+      url: Qonnect/WASTED MIND @ QONNECT X QORE
+      videotype: mkv
+    - name: Wasted Penguinz
+      url: Qonnect/Wasted Penguinz @ Qonnect (2020-05-20)
+      videotype: mkv
+    - name: Wildstylez
+      url: Qonnect/Wildstylez @ Qonnect (2020-05-20)
+      videotype: mkv
+  - link: SSKD
+    name: SSKD
+    videos:
+    - name: B-Front
+      url: SSKD/B-Front @ SSKD(27-04-2020)
+      videotype: mp4
+    - name: DJ Jantje
+      url: SSKD/DJ Jantje @ SSKD(27-04-2020)
+      videotype: mp4
+    - name: DJ Panic
+      url: SSKD/DJ Panic @ SSKD(27-04-2020)
+      videotype: mp4
+    - name: E-Force
+      url: SSKD/E-Force @ SSKD(27-04-2020)
+      videotype: mp4
+    - name: Partyraiser
+      url: SSKD/Partyraiser @ SSKD(27-04-2020)
+      videotype: mp4
+    - name: Spitnoise
+      url: SSKD/Spitnoise @ SSKD(27-04-2020)
+      videotype: mp4
+    - name: The Pitcher
+      url: SSKD/The Pitcher @ SSKD(27-04-2020)
+      videotype: mp4
+    - name: Zany
+      url: SSKD/Zany @ SSKD(27-04-2020)
+      videotype: mp4
+  - link: SSKD2021
+    name: 'Supersized Kingsday 2021 '
+    videos:
+    - name: AniMe
+      url: SSKD2021/AniMe @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: B-Front & E-Force
+      url: SSKD2021/B-Front & E-Force @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: DJ Jantje
+      url: SSKD2021/DJ Jantje @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: Deepack
+      url: SSKD2021/Deepack @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: N-Vitral
+      url: SSKD2021/N-Vitral @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: Panic & Mad Dog
+      url: SSKD2021/Panic & Mad Dog @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: Partyraiser & Spitnoise
+      url: SSKD2021/Partyraiser & Spitnoise @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: Ran-D
+      url: SSKD2021/Ran-D @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: Ransom
+      url: SSKD2021/Ransom @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: Rebelion
+      url: SSKD2021/Rebelion @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+    - name: The Pitcher & Zany
+      url: SSKD2021/The Pitcher & Zany @ Supersized Kingsday 2021 (2021-04-27)
+      videotype: mkv
+  - link: The First Dose
+    name: Rebelion The first dose-360
+    videos:
+    - name: Imperial
+      url: The First Dose/Imperial @ Rebelion The first dose-360
+      videotype: mkv
+    - name: Imperial
+      url: The First Dose/Imperial @ Rebelion The first dose-480
+      videotype: mkv
+    - name: Imperial
+      url: The First Dose/Imperial @ Rebelion The first dose-720
+      videotype: mkv
+    - name: Imperial
+      url: The First Dose/Imperial @ Rebelion The first dose
+      videotype: mkv
+    - name: Rebelion
+      url: The First Dose/Rebelion @ Rebelion The first dose-360
+      videotype: mkv
+    - name: Rebelion
+      url: The First Dose/Rebelion @ Rebelion The first dose-480
+      videotype: mkv
+    - name: Rebelion
+      url: The First Dose/Rebelion @ Rebelion The first dose-720
+      videotype: mkv
+    - name: Rebelion
+      url: The First Dose/Rebelion @ Rebelion The first dose
+      videotype: mkv
+    - name: Sound Rush
+      url: The First Dose/Sound Rush @ Rebelion The first dose-360
+      videotype: mkv
+    - name: Sound Rush
+      url: The First Dose/Sound Rush @ Rebelion The first dose-480
+      videotype: mkv
+    - name: Sound Rush
+      url: The First Dose/Sound Rush @ Rebelion The first dose-720
+      videotype: mkv
+    - name: Sound Rush
+      url: The First Dose/Sound Rush @ Rebelion The first dose
+      videotype: mkv
+  - link: Titanium
+    name: Titanium
+    videos:
+    - name: Chaotic Hostility
+      url: Titanium/Chaotic Hostility @ Titanium
+      videotype: mkv
+    - name: DR. Peacock Live
+      url: Titanium/DR. Peacock Live @ Titanium
+      videotype: mkv
+    - name: Deathroar
+      url: Titanium/Deathroar @ Titanium
+      videotype: mkv
+    - name: Dimitrik
+      url: Titanium/Dimitrik @ Titanium
+      videotype: mkv
+    - name: Frantic Freak
+      url: Titanium/Frantic Freak @ Titanium
+      videotype: mkv
+    - name: Hyrule War VS Sprinky
+      url: Titanium/Hyrule War VS Sprinky @ Titanium
+      videotype: mkv
+    - name: Irradiate
+      url: Titanium/Irradiate @ Titanium
+      videotype: mkv
+    - name: MD&A VS SEQUENCE & OMINOUS
+      url: Titanium/MD&A VS SEQUENCE & OMINOUS @ Titanium
+      videotype: mkv
+    - name: MR. IVEX
+      url: Titanium/MR. IVEX @ Titanium
+      videotype: mkv
+    - name: Partyraiser
+      url: Titanium/Partyraiser @ Titanium
+      videotype: mkv
+    - name: Supoer Trash Bros
+      url: Titanium/Supoer Trash Bros @ Titanium
+      videotype: mkv
+    - name: System Overload
+      url: Titanium/System Overload @ Titanium
+      videotype: mkv
+    - name: The Dark Horror
+      url: Titanium/The Dark Horror @ Titanium
+      videotype: mkv
+    - name: The Darkraver
+      url: Titanium/The Darkraver @ Titanium
+      videotype: mkv
+    - name: The Resoant Squad
+      url: Titanium/The Resoant Squad @ Titanium
+      videotype: mkv
+    - name: The Vizitor vs. Vandal!sm
+      url: Titanium/The Vizitor vs. Vandal!sm @ Titanium
+      videotype: mkv
+    - name: Trespassed vs. Angernoizer
+      url: Titanium/Trespassed vs. Angernoizer @ Titanium
+      videotype: mkv
+    - name: bulletproof
+      url: Titanium/bulletproof @ Titanium
+      videotype: mkv
+    - name: dopeter
+      url: Titanium/dopeter @ Titanium
+      videotype: mkv
+  - link: Tomorrowland2020
+    name: tomorrowland 2020
+    videos:
+    - name: Coone
+      url: Tomorrowland2020/Coone @ tomorrowland 2020
+      videotype: mkv
+    - name: DBSTF
+      url: Tomorrowland2020/DBSTF @ tomorrowland 2020
+      videotype: mkv
+    - name: Da Tweekaz
+      url: Tomorrowland2020/Da Tweekaz @ tomorrowland 2020
+      videotype: mkv
+    - name: Feest DJ Lucki luc
+      url: Tomorrowland2020/Feest DJ Lucki luc @ Tomorrowland 2020
+      videotype: mkv
+    - name: Frank Mellemans
+      url: Tomorrowland2020/Frank Mellemans @ Tomorrowland 2020
+      videotype: mkv
+    - name: Jan V
+      url: Tomorrowland2020/Jan V @ Tomorrowland 2020
+      videotype: mkv
+    - name: MR E
+      url: Tomorrowland2020/MR E @ Tomorrowland 2020
+      videotype: mkv
+    - name: Ran-D
+      url: Tomorrowland2020/Ran-D @ tomorrowland 2020
+      videotype: mkv
+    - name: Sub Zero Project
+      url: Tomorrowland2020/Sub Zero Project @ Tomorrowland 2020
+      videotype: mkv
+    - name: Tiesto
+      url: Tomorrowland2020/Tiesto @ Tomorrowland 2020
+      videotype: mkv
+    - name: Wildstylez
+      url: Tomorrowland2020/Wildstylez @ tomorrowland 2020
+      videotype: mkv
+  - link: WishOutdoor2020
+    name: 'Into The Summer Festival '
+    videos:
+    - name: ANDY SVGE
+      url: WishOutdoor2020/ANDY SVGE @ Into The Summer Festival (2020-07-04)
+      videotype: mkv
+    - name: B-Front
+      url: WishOutdoor2020/B-Front @ WiSH Outdoor 2020 (2020-07-04)
+      videotype: mkv
+    - name: Freestyle Maniacs
+      url: WishOutdoor2020/Freestyle Maniacs @ Into The Summer Festival (2020-07-04)
+      videotype: mkv
+    - name: Jay Reeve
+      url: WishOutdoor2020/Jay Reeve @ Into The Summer Festival (2020-07-04)
+      videotype: mkv
+    - name: Primeshock
+      url: WishOutdoor2020/Primeshock @ Into The Summer Festival (2020-07-04)
+      videotype: mkv
+    - name: RVAGE
+      url: WishOutdoor2020/RVAGE @ Into The Summer Festival (2020-07-04)
+      videotype: mkv
+    - name: Ran-D
+      url: WishOutdoor2020/Ran-D @ WiSH Outdoor 2020 (2020-07-04)
+      videotype: mkv
+    - name: Sound Rush
+      url: WishOutdoor2020/Sound Rush @ WiSH Outdoor 2020 (2020-07-04)
+      videotype: mkv
+  - link: mysteryland2020
+    name: Mysteryland lets get high
+    videos:
+    - name: Atmozfears
+      url: mysteryland2020/Atmozfears @ Mysteryland lets get high
+      videotype: mkv
+    - name: Audiotricz
+      url: mysteryland2020/Audiotricz @ Mysteryland 2019, Q-dance (2019-08-25)
+      videotype: mkv
+    - name: Bass modulators
+      url: mysteryland2020/Bass modulators @ Mysteryland lets get high
+      videotype: mkv
+    - name: Psyko Punkz
+      url: mysteryland2020/Psyko Punkz @ Mysteryland 2019, Q-dance (2019-08-24)
+      videotype: mkv
+    - name: Ran-D
+      url: mysteryland2020/Ran-D @ Mysteryland lets get high
+      videotype: mkv
+    - name: Sefa
+      url: mysteryland2020/Sefa @ Mysteryland lets get high
+      videotype: mkv
+    - name: Sound Rush
+      url: mysteryland2020/Sound Rush @ Mysteryland lets get high
+      videotype: mkv
+  - link: quarentine
+    name: Electric Love
+    videos:
+    - name: Da tweekaz
+      url: quarentine/Da tweekaz @ Electric Love
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 10 '
+      url: quarentine/Tweeka TV - Episode 10 (The Elite)
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 11 '
+      url: quarentine/Tweeka TV - Episode 11 (The Classic Edition)
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 17 '
+      url: quarentine/Tweeka TV - Episode 17 (The Workout Edition)1
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 21 '
+      url: quarentine/Tweeka TV - Episode 21 (Special Guest Ran-D)
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 22 '
+      url: quarentine/Tweeka TV - Episode 22 (The Marathon Edition) ANGERFIST
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 22 '
+      url: quarentine/Tweeka TV - Episode 22 (The Marathon Edition) GREAZY PUSSY FUCKERZ
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 22 '
+      url: quarentine/Tweeka TV - Episode 22 (The Marathon Edition) REBELION
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 23 '
+      url: quarentine/Tweeka TV - Episode 23 (Special Guest Headhunterz)
+      videotype: mkv
+    - name: Tweeka TV - Episode 24 The German Edition1
+      url: quarentine/Tweeka TV - Episode 24 The German Edition1
+      videotype: mkv
+    - name: Tweeka TV - Episode 25 The Halloween Edition with Special Guest Keltek3
+      url: quarentine/Tweeka TV - Episode 25 The Halloween Edition with Special Guest
+        Keltek3
+      videotype: mp4
+    - name: 'Tweeka TV - Episode 27 '
+      url: quarentine/Tweeka TV - Episode 27 (Special Guest Warface)1
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 28 '
+      url: quarentine/Tweeka TV - Episode 28 (The Collab Edition)1
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 29 '
+      url: quarentine/Tweeka TV - Episode 29 (The Mystery Edition)1
+      videotype: mkv
+    - name: Tweeka TV - Episode 37
+      url: quarentine/Tweeka TV - Episode 37
+      videotype: mkv
+    - name: 'Tweeka TV - Episode 42 '
+      url: quarentine/Tweeka TV - Episode 42 (Special Guest D-Sturb)1
+      videotype: mkv
+    - name: Tweeka TV - Episode 372
+      url: quarentine/Tweeka TV - Episode 372
+      videotype: mkv
+    - name: Tweeka TV Episode 16 - Special Guests
+      url: quarentine/Tweeka TV Episode 16 - Special Guests
+      videotype: mkv
+    - name: datweekaz
+      url: quarentine/datweekaz
+      videotype: mkv
+    - name: sefa
+      url: quarentine/sefa
+      videotype: mp4
+    - name: 'Tweeka TV - Episode 48 '
+      url: quarentine/Tweeka TV - Episode 48 (The Freestyle Edition)1
+      videotype: mkv
+  - link: rebirth2021
+    name: 'REBiRTH Festival 2021 Livestream '
+    videos:
+    - name: D-Block & S-te-Fan
+      url: rebirth2021/D-Block & S-te-Fan @ REBiRTH Festival 2021 Livestream (2021-04-10)
+      videotype: mkv
+    - name: D-Sturb
+      url: rebirth2021/D-Sturb @ REBiRTH Festival 2021 Livestream (2021-04-10)
+      videotype: mkv
+    - name: Deadly Guns
+      url: rebirth2021/Deadly Guns @ REBiRTH Festival 2021 Livestream (2021-04-10)
+      videotype: mkv
+    - name: Demi Kanon
+      url: rebirth2021/Demi Kanon @ REBiRTH Festival 2021 Livestream (2021-04-10)
+      videotype: mkv
+    - name: E-Force
+      url: rebirth2021/E-Force @ REBiRTH Festival 2021 Livestream (2021-04-10)
+      videotype: mkv
+    - name: 'Gunz for Hire '
+      url: rebirth2021/Gunz for Hire (The Best Of) @ REBiRTH Festival 2021 Livestream
+        (2021-04-10)
+      videotype: mkv
+    - name: Hard Driver
+      url: rebirth2021/Hard Driver @ REBiRTH Festival 2021 Livestream (2021-04-10)
+      videotype: mkv
+    - name: Rebelion
+      url: rebirth2021/Rebelion @ REBiRTH Festival 2021 Livestream (2021-04-10)
+      videotype: mkv
+    - name: Sound Rush
+      url: rebirth2021/Sound Rush @ REBiRTH Festival 2021 Livestream (2021-04-10)
+      videotype: mkv
 
 # A list of livesets shown on the homepage,
 # see list above for details on most of their properties
