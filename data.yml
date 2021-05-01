@@ -26,7 +26,7 @@ livesets_menu:
       url: APEX/VASTO @ APEX
       videotype: mkv
   - link: DEFQON.1 2020
-    name: Defqon
+    name: Defqon.1 2020
     videos:
     - name: Act of Rage
       url: DEFQON.1 2020/Act of Rage @ Defqon.1 at Home, Blue (2020-06-27)
@@ -274,7 +274,7 @@ livesets_menu:
       url: IMPERATORZ/NEROZ @ IMPERATORZ
       videotype: mkv
   - link: Intents
-    name: 'The Online Intents Festival 2020, Outdoor Mainstage '
+    name: 'The Online Intents Festival 2020'
     videos:
     - name: 2-Sidez
       url: Intents/2-Sidez @ The Online Intents Festival 2020, Outdoor Mainstage (2020-06-06)
@@ -621,7 +621,7 @@ livesets_menu:
       url: Qonnect/Wildstylez @ Qonnect (2020-05-20)
       videotype: mkv
   - link: SSKD
-    name: SSKD
+    name: Supersized Kingsday 2020 
     videos:
     - name: B-Front
       url: SSKD/B-Front @ SSKD(27-04-2020)
@@ -684,7 +684,7 @@ livesets_menu:
       url: SSKD2021/The Pitcher & Zany @ Supersized Kingsday 2021 (2021-04-27)
       videotype: mkv
   - link: The First Dose
-    name: Rebelion The first dose-360
+    name: Rebelion The first
     videos:
     - name: Imperial
       url: The First Dose/Imperial @ Rebelion The first dose-360
@@ -819,7 +819,7 @@ livesets_menu:
       url: Tomorrowland2020/Wildstylez @ tomorrowland 2020
       videotype: mkv
   - link: WishOutdoor2020
-    name: 'Into The Summer Festival '
+    name: 'WishOutdoor 2020 Into The Summer Festival '
     videos:
     - name: ANDY SVGE
       url: WishOutdoor2020/ANDY SVGE @ Into The Summer Festival (2020-07-04)
@@ -870,7 +870,7 @@ livesets_menu:
       url: mysteryland2020/Sound Rush @ Mysteryland lets get high
       videotype: mkv
   - link: quarentine
-    name: Electric Love
+    name: Da Tweekaz
     videos:
     - name: Da tweekaz
       url: quarentine/Da tweekaz @ Electric Love
