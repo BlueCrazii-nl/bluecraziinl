@@ -1,0 +1,21 @@
+.container {
+    padding-bottom: 30px;
+}
+
+.title {
+    margin: 20px 0 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.donate {
+    margin: 20px 0 5px !important;
+}
+
+svg {
+    position: relative;
+    top: 6px;
+    left: -3px;
+}

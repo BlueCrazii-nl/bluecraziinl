@@ -3,3 +3,9 @@
     font-size: 1.3em;
     color: rgb(0, 99, 165);
 }
+
+@media (prefers-color-scheme: dark) {
+    svg {
+        stroke: white !important;
+    }
+}

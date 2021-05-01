@@ -1,6 +1,6 @@
 banners/*
 !banners/readme.txt
 
-/index.html
+/*.html
 /watch
 /sets
