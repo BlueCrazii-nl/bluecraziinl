@@ -1015,7 +1015,7 @@ streams:
 
   - name: "Festival"
     link: "festival"
-    videourl: "livestreams/dash/Festivals"
+    videourl: "livestreams/hls/Festivals"
     filetype: "mpd"
     poster: "https://i0.wp.com/www.festivalling.com/wp-content/uploads/2020/11/Tomorrowland-NYE.jpg"
 

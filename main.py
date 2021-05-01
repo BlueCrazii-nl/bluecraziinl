@@ -38,7 +38,7 @@ write(tem('contact').render(data=data), 'contact')
 write(tem('qdr').render(data=data), 'QDR')
 for stream in data['streams']:
     stream['resolutions'] = data['resolutions']
-    write(tem('player').render(data=data, stream=stream), f'watch/{stream["link"]}')
+    write(tem('streamplayer').render(data=data, stream=stream), f'watch/{stream["link"]}')
 
 # Create and write liveset and individual video pages
 def liveset(sets):
@@ -46,13 +46,10 @@ def liveset(sets):
         write(tem('liveset').render(data=data, set=set), f'sets/{set["link"]}')
         for vid in set['videos']:
             # Move some stuff around to make it fit with the player template
-            vid['resolutions'] = []
-            vid['filetype'] = vid['videotype']
-            vid['videourl'] = vid['url']
             if 'poster' in set:
                 vid['poster'] = set['poster']
             name = vid['name']
             vid['name'] = name + ' @ ' + set['name']
-            write(tem('player').render(data=data, stream=vid), f'watch/{set["link"]}/{name}')
+            write(tem('player').render(data=data, video=vid), f'watch/{set["link"]}/{name}')
 liveset(data['livesets_menu'])
 liveset(data['livesets_cards'])
