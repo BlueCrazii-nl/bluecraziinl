@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ data.name}}{% endblock %}
+{% block css %}player{% endblock %}
+{% block head %}<link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet">{% endblock %}
+
+{% block content %}
+<div class="container">
+    <p class="title is-3">{{stream.name}}</p>
+
+    <video
+        onloadstart="if (!window.__cfRLUnblockHandlers) return false; this.volume=0.030"
+        poster="{{stream.poster}}" id="video" class="video-js" controls preload="auto" data-setup='{"fluid": true}'
+        data-cf-modified-9ff13887cd0d3fbc3966907d-="">
+
+        <source src="{{data.cdnurl}}/{{stream.videourl}}.{{stream.filetype}}" type="application/dash+xml" label="auto" res="1" />
+
+        {% for res in data.resolutions %}
+            <source src="{{data.cdnurl}}/{{stream.videourl}}_{{res}}/index.{{stream.filetype}}" type="application/dash+xml" label="{{res}}P"
+                res="{{loop.index0 + 2}}" />
+        {% endfor %}
+
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
+</div>
+
+<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+<script type="9ff13887cd0d3fbc3966907d-text/javascript">videojs('video').videoJsResolutionSwitcher()</script>
+{% endblock %}

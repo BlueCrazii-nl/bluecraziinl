@@ -17,3 +17,5 @@ pip3 install jinja2
 # Compile templates
 python3 main.py
 ```
+
+Output is `index.html` and the `watch` directory.

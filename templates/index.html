@@ -23,7 +23,7 @@
         <div class="card-content">
           <div class="content">
             <p class="title is-5">{{set.name}}</p>
-            <a href="{{set.link}}">Watch it here!</a>
+            <a href="/{{set.link}}">Watch it here!</a>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@
       <div class="panel">
         <p class="panel-heading">Stream Status</p>
         {% for stream in data.streams %}
-        <a class="panel-block is-active stream-link" href="{{stream.link}}">
+        <a class="panel-block is-active stream-link" href="/watch/{{stream.link}}">
           <span class="stream-name">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cast" width="32" height="32"
               viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
