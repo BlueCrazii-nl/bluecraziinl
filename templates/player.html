@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
+<main class="container">
   <p class="title is-3">{{stream.name}}</p>
 
   <video onloadstart="if (!window.__cfRLUnblockHandlers) return false; this.volume=0.030" poster="{{stream.poster}}"
@@ -26,7 +26,7 @@
       <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
     </p>
   </video>
-</div>
+</main>
 
 <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
 <script type="9ff13887cd0d3fbc3966907d-text/javascript">videojs('video').videoJsResolutionSwitcher()</script>
