@@ -4,7 +4,7 @@
 
 {% block head %}
 <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet">
-<link href="videojs-resolution-switcher.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher-vjs7@1.0.0/videojs-resolution-switcher.css">
 {% endblock %}
 
 {% block content %}
@@ -12,7 +12,7 @@
     <p class="title is-3">{{stream.name}}</p>
 
     <video onloadstart="if (!window.__cfRLUnblockHandlers) return false; this.volume=0.030" poster="{{stream.poster}}"
-        id="video" class="video-js" controls preload="auto" data-setup='{"fluid": true}'
+        id="video" class="video-js vjs-default-skin" controls preload="auto" data-setup='{"fluid": true}'
         data-cf-modified-9ff13887cd0d3fbc3966907d-="">
 
         <source src="{{data.cdnurl}}/{{stream.videourl}}.{{stream.filetype}}" type="application/x-mpegURL" label="auto"
@@ -30,6 +30,6 @@
 </main>
 
 <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
-<script src="videojs-resolution-switcher.js" type="9ff13887cd0d3fbc3966907d-text/javascript"></script>
-<script type="9ff13887cd0d3fbc3966907d-text/javascript">videojs('video').videoJsResolutionSwitcher()</script>
+<script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher-vjs7@1.0.0/videojs-resolution-switcher.js"></script>
+<script>videojs('video').videoJsResolutionSwitcher()</script>
 {% endblock %}
