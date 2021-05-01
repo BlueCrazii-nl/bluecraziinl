@@ -1006,6 +1006,12 @@ streams:
     filetype: "m3u8"
     poster: "https://i0.wp.com/www.festivalling.com/wp-content/uploads/2020/11/Tomorrowland-NYE.jpg"
 
+  - name: "Movies"
+    link: "Movies"
+    videourl: "livestreams/hls/Movies"
+    filetype: "m3u8"
+    poster: "https://www.movies4kids.co.uk/wp-content/uploads/2011/02/prates-caribbean.jpg"
+
 # All resolutions that the streams are available in. Affects
 # generation of video sources
 resolutions: ["360", "480", "720", "1080"]
