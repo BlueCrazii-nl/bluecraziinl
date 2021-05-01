@@ -46,11 +46,7 @@
             </svg>
             {{ stream.name }} Stream
           </span>
-          {% if stream.online %}
-          <span class="stream-status-online">Online</span>
-          {% else %}
-          <span class="stream-status-offline">Offline</span>
-          {% endif %}
+          <span class="stream-status" data-videourl="{{data.cdnurl}}/{{stream.videourl}}.{{stream.filetype}}">Loading...</span>
         </a>
         {% endfor %}
       </div>
@@ -63,4 +59,5 @@
   </div>
 </main>
 
+<script src="/js/index.js"></script>
 {% endblock %}
