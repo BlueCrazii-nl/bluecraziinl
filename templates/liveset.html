@@ -18,9 +18,9 @@
     <tbody>
       {% for vid in set.videos %}
       <tr>
-        <td class="table-name">{{ vid.name}} @ {{ set.name }}</td>
+        <td class="table-name">{{ vid.name }} @ {{ set.name }}</td>
         <td class="table-icon">
-          <a href="{{data.cdnurl}}/{{vid.videourl}}.mkv">
+          <a href="{{data.cdnurl}}/{{vid.url}}.{{vid.videotype}}">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="32" height="32"
               viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
               stroke-linejoin="round">
@@ -32,7 +32,7 @@
           </a>
         </td>
         <td class="table-icon">
-          <a href="{{data.cdnurl}}/{{vid.videourl}}.mp3">
+          <a href="{{data.cdnurl}}/{{vid.url}}.mp3">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="32" height="32"
               viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
               stroke-linejoin="round">

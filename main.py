@@ -46,7 +46,8 @@ def liveset(sets):
         for vid in set['videos']:
             # Move some stuff around to make it fit with the player template
             vid['resolutions'] = []
-            vid['filetype'] = 'mkv'
+            vid['filetype'] = vid['videotype']
+            vid['videourl'] = vid['url']
             vid['poster'] = set['poster']
             name = vid['name']
             vid['name'] = name + ' @ ' + set['name']

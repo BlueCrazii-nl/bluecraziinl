@@ -12,7 +12,8 @@ livesets_menu:
     poster: "https://cdn.bluecrazii.nl/Qapital/QONNECT-QAPITAL-WATCHNOW-QAP-1920x1080px.png" # Full URL of video player poster
     videos: # All videos that are part of this set
       - name: "Degos & Re-Done" # Name of the video, will have '@ $set.name' appended to it
-        videourl: "SSKD2021/DJ Jantje @ Supersized Kingsday 2021 (2021-04-27)" # URL on the CDN without extension, CDN must have '.mkv' and '.mp3' files
+        url: "SSKD2021/DJ Jantje @ Supersized Kingsday 2021 (2021-04-27)" # URL on the CDN without extension; audio always '.mp3'
+        videotype: "mkv" # Extension for video file
 
   - name: "SuperSized KingsDay 2020"
     link: "SSKD"
@@ -31,11 +32,14 @@ livesets_cards:
     poster: "https://cdn.bluecrazii.nl/supersizedkingsday2021.jpg"
     videos:
       - name: "DJ Jantje"
-        videourl: "SSKD2021/DJ Jantje @ Supersized Kingsday 2021 (2021-04-27)"
+        url: "SSKD2021/DJ Jantje @ Supersized Kingsday 2021 (2021-04-27)"
+        videotype: "mkv"
       - name: "Deepack"
-        videourl: "SSKD2021/Deepack @ Supersized Kingsday 2021 (2021-04-27)"
+        url: "SSKD2021/Deepack @ Supersized Kingsday 2021 (2021-04-27)"
+        videotype: "mkv"
       - name: "Ransom"
-        videourl: "SSKD2021/Ransom @ Supersized Kingsday 2021 (2021-04-27)"
+        url: "SSKD2021/Ransom @ Supersized Kingsday 2021 (2021-04-27)"
+        videotype: "mkv"
 
   - name: "Rebirth 2021"
     link: "rebirth2021"
