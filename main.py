@@ -35,6 +35,7 @@ def write(dat, location):
 # Create and write index and stream pages
 write(tem('index').render(data=data), 'index')
 write(tem('contact').render(data=data), 'contact')
+write(tem('qdr').render(data=data), 'QDR')
 for stream in data['streams']:
     stream['resolutions'] = data['resolutions']
     write(tem('player').render(data=data, stream=stream), f'watch/{stream["link"]}')

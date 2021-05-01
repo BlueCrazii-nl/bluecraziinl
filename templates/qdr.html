@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}Q-dance Radio{% endblock %}
+{% block css %}qdr{% endblock %}
+
+{% block content %}
+<main class="container">
+  <p class="title is-3">Q-DANCE RADIO LIVE</p>
+
+  <div class="audio">
+    <audio controls id="radio">
+      <source src="https://radio.bluecrazii.nl/" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <script type="text/javascript">
+    document.getElementById("radio").volume = 0.1;
+  </script>
+
+  <div class="columns">
+    <div class="column is-two-thirds">
+      <table class="table is-fullwidth">
+        <thead>
+          <tr>
+            <th>Radio Schedule </th>
+            <th>Item</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Every wednesday</td>
+            <td>Next</td>
+            <td>19:00 - 20:00</td>
+          </tr>
+          <tr>
+            <td>Every first thursday of the month</td>
+            <td>We are the nightbreed</td>
+            <td>20:00 - 22:00</td>
+          </tr>
+          <tr>
+            <td>Top 40</td>
+            <td>Every last friday of the month</td>
+            <td>16:00 - 18:00</td>
+          </tr>
+          <tr>
+            <td>Powermode</td>
+            <td>Every last wednesday of the month</td>
+            <td>20:00 - 21:00</td>
+          </tr>
+          <tr>
+            <td>Extreme audio</td>
+            <td>Every last friday of the month</td>
+            <td>21:00 - 22:00</td>
+          </tr>
+          <tr>
+            <td>Global Dedication</td>
+            <td>Second last thursday of the month</td>
+            <td>19:00 - 20:00</td>
+          </tr>
+          <tr>
+            <td>The polar express</td>
+            <td>Every 1st of the month</td>
+            <td>03:00 - 04:00</td>
+          </tr>
+          <tr>
+            <td>Keeping the rave alive</td>
+            <td>Every sunday</td>
+            <td>22:00 - 23:00</td>
+          </tr>
+          <tr>
+            <td>Inzanity</td>
+            <td>Every second thursday of the month</td>
+            <td>19:00 - 20:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="column">
+      <table class="table is-fullwidth">
+        <tbody>
+          <tr>
+            <td>Upcoming track</td>
+            <td>Coming Soon</td>
+          </tr>
+          <tr>
+            <td>Current Track</td>
+            <td>Coming Soon</td>
+          </tr>
+          <tr>
+            <td>History</td>
+            <td>Coming Soon</tr>td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+{% endblock %}

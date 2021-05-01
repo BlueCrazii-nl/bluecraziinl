@@ -1,0 +1,14 @@
+main {
+    padding-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+}
+
+.audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
