@@ -1,4 +1,4 @@
 banners/*
 !banners/readme.txt
 
-index.html
+/index.html
