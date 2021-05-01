@@ -2,81 +2,80 @@
 <html lang="en" class="has-navbar-fixed-top">
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta property="og:description" content="Explore the world of hardstyle here">
-    <meta property="og:title" content="Index">
-    <meta property="og:site_name" content="BlueCrazii">
-    <meta data-hid="og:image" property="og:image" content="{{cdnurl}}/favicon.png">
-    <link rel="shortcut icon" href="{{cdnurl}}/favicon.png">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block title %}{% endblock %} | BlueFlix 3.0</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta property="og:description" content="Explore the world of hardstyle here">
+  <meta property="og:title" content="Index">
+  <meta property="og:site_name" content="BlueCrazii">
+  <meta data-hid="og:image" property="og:image" content="{{cdnurl}}/favicon.png">
+  <link rel="shortcut icon" href="{{cdnurl}}/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{% endblock %} | BlueFlix 3.0</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/{% block css %}{% endblock %}.css">
-    <link rel="stylesheet" href="/css/bulma.min.css">
-    <link rel="stylesheet" href="/css/bulma-prefers-dark.css">
-    {% block head %}{% endblock %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/{% block css %}{% endblock %}.css">
+  <link rel="stylesheet" href="/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/bulma-prefers-dark.css">
+  {% block head %}{% endblock %}
 </head>
 
 <body>
-    <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-                <span class="logo">BlueCrazii.nl</span>
-            </a>
-            <div class="navbar-burger" data-target="navbarContent">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+  <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <span class="logo">BlueCrazii.nl</span>
+      </a>
+      <div class="navbar-burger" data-target="navbarContent">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarContent" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="index">Home</a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Livestreams</a>
+          <div class="navbar-dropdown is-boxed">
+            {% for stream in data.streams %}
+            <a class="navbar-item" href="/watch/{{stream.link}}">{{stream.name}}</a>
+            {% endfor %}
+          </div>
         </div>
 
-        <div id="navbarContent" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="index">Home</a>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">Livestreams</a>
-                    <div class="navbar-dropdown is-boxed">
-                        {% for stream in data.streams %}
-                        <a class="navbar-item" href="/watch/{{stream.link}}">{{stream.name}}</a>
-                        {% endfor %}
-                    </div>
-                </div>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">Livesets</a>
-                    <div class="navbar-dropdown is-boxed">
-                        {% for set in data.livesets_menu %}
-                        <a class="navbar-item" href="/sets/{{set.link}}">{{set.name}}</a>
-                        {% endfor %}
-                    </div>
-                </div>
-
-                <a class="navbar-item" href="/QDR">Q-dance Radio</a>
-            </div>
-
-            <div class="navbar-end">
-                <a class="navbar-item" href="/contact">Contact</a>
-                <a class="navbar-item" href="{{data.statusurl}}/index">Server Status</a>
-            </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Livesets</a>
+          <div class="navbar-dropdown is-boxed">
+            {% for set in data.livesets_menu %}
+            <a class="navbar-item" href="/sets/{{set.link}}">{{set.name}}</a>
+            {% endfor %}
+          </div>
         </div>
 
-    </nav>
+        <a class="navbar-item" href="/QDR">Q-dance Radio</a>
+      </div>
 
-    {% block content %}{% endblock %}
+      <div class="navbar-end">
+        <a class="navbar-item" href="/contact">Contact</a>
+        <a class="navbar-item" href="{{data.statusurl}}/index">Server Status</a>
+      </div>
+    </div>
+  </nav>
 
-    <footer class="footer is-dark">
-        <div class="content has-text-centered">
-            <p>Bluecrazii.nl is created and hosted by BlueCrazii#0001.</p>
-            <p>Made possible by <a href="https://nginx.com/">Nginx</a> and <a href="https://obsproject.com/">OBS
-                    Studio</a>.</p>
-            <p>Website 3.0 designed and written by ellie#0331.</p>
-        </div>
-    </footer>
+  {% block content %}{% endblock %}
+
+  <footer class="footer is-dark">
+    <div class="content has-text-centered">
+      <p>Bluecrazii.nl is created and hosted by BlueCrazii#0001.</p>
+      <p>Made possible by <a href="https://nginx.com/">Nginx</a> and <a href="https://obsproject.com/">OBS
+          Studio</a>.</p>
+      <p>Website 3.0 designed and written by ellie#0331.</p>
+    </div>
+  </footer>
 </body>
 
 </html>
