@@ -1,0 +1,31 @@
+.logo {
+    font-family: 'Lobster', sans-serif;
+    font-size: 1.3em;
+    color: rgb(0, 99, 165);
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.stream-link {
+    justify-content: space-between !important;
+}
+
+.stream-name {
+    align-items: center;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.stream-name > svg {
+    margin-right: 10px;
+}
+
+.stream-status-offline {
+    color: rgb(151, 0, 0);
+}
+
+.stream-status-online {
+    color: rgb(0, 100, 0);
+}

@@ -1,0 +1,35 @@
+livesets_menu:
+  - name: "Qapital 2020"
+    link: "Qapital"
+  - name: "SuperSized KingsDay 2020"
+    link: "SSKD"
+  - name: "Titanium 2020"
+    link: "titanium"
+
+livesets_cards:
+  - name: "SuperSized KingsDay 2021"
+    link: "SSKD2021"
+    banner: "sskd2021banner.jpg"
+  - name: "Rebirth 2021"
+    link: "rebirth2021"
+    banner: "REBiRTH-Festival-Livestream.jpg"
+  - name: "HSU LIVE"
+    link: "HSU"
+    banner: "HSU-.webp"
+
+streams:
+  - name: "Formula1 NL"
+    link: "F1"
+    online: false
+  - name: "Formula1 EN"
+    link: "F1"
+    online: false
+  - name: "Festival"
+    link: "festivals"
+    online: true
+
+baseurl: "https://bluecrazii.nl"
+statusurl: "https://status.bluecrazii.nl"
+discord: 
+  serverid: "NJPaABXuUy"
+  widget: "733034147106521110"

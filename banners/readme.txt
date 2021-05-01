@@ -1,0 +1,1 @@
+Put the various liveset banners as defined in data.yml in this directory.
