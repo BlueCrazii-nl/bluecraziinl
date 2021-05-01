@@ -28,7 +28,7 @@ streams:
     link: "festivals"
     online: true
 
-baseurl: "https://bluecrazii.nl"
+cdnurl: "https://cdn.bluecrazii.nl"
 statusurl: "https://status.bluecrazii.nl"
 discord: 
   serverid: "NJPaABXuUy"

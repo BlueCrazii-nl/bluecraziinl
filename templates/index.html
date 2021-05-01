@@ -6,8 +6,8 @@
   <meta property="og:description" content="Explore the world of hardstyle here">
   <meta property="og:title" content="Index">
   <meta property="og:site_name" content="BlueCrazii">
-  <meta data-hid="og:image" property="og:image" content="https://cdn.bluecrazii.nl/favicon.png">
-  <link rel="shortcut icon" href="https://cdn.bluecrazii.nl/favicon.png">
+  <meta data-hid="og:image" property="og:image" content="{{cdnurl}}/favicon.png">
+  <link rel="shortcut icon" href="{{cdnurl}}/favicon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BlueFlix 3.0 | Index</title>
@@ -22,7 +22,7 @@
 <body>
   <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{data.baseurl}}/index">
+      <a class="navbar-item" href="index">
         <span class="logo">BlueCrazii.nl</span>
       </a>
       <div class="navbar-burger" data-target="navbarContent">
@@ -34,13 +34,13 @@
 
     <div id="navbarContent" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="{{data.baseurl}}/index">Home</a>
+        <a class="navbar-item" href="index">Home</a>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">Livestreams</a>
           <div class="navbar-dropdown is-boxed">
-            <a class="navbar-item" href="{{data.baseurl}}/F1">Formula 1</a>
-            <a class="navbar-item" href="{{data.baseurl}}/festivals">Festival</a>
+            <a class="navbar-item" href="F1">Formula 1</a>
+            <a class="navbar-item" href="festivals">Festival</a>
           </div>
         </div>
         
@@ -48,16 +48,16 @@
           <a class="navbar-link">Livesets</a>
           <div class="navbar-dropdown is-boxed">
             {% for set in data.livesets_menu %}
-            <a class="navbar-item" href="{{data.baseurl}}/{{set.link}}">{{set.name}}</a>
+            <a class="navbar-item" href="{{set.link}}">{{set.name}}</a>
             {% endfor %}
           </div>
         </div>
 
-        <a class="navbar-item" href="{{data.baseurl}}/index">Q-dance Radio</a>
+        <a class="navbar-item" href="index">Q-dance Radio</a>
       </div>
 
       <div class="navbar-end">
-        <a class="navbar-item" href="{{data.baseurl}}/contact">Contact</a>
+        <a class="navbar-item" href="contact">Contact</a>
         <a class="navbar-item" href="{{data.statusurl}}/index">Server Status</a>
       </div>
     </div>
@@ -78,7 +78,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image">
-              <img src="{{data.baseurl}}/banners/{{set.banner}}" alt="{{set.name}}">
+              <img src="banners/{{set.banner}}" alt="{{set.name}}">
             </figure>
           </div>
           <div class="card-content">
@@ -91,10 +91,10 @@
         {% endfor %}
       </div>
       <div class="column">
-        <div class="panel is-info">
+        <div class="panel">
           <p class="panel-heading">Stream Status</p>
           {% for stream in data.streams %}
-          <a class="panel-block is-active stream-link" href="{{data.baseurl}}/{{stream.link}}">
+          <a class="panel-block is-active stream-link" href="{{stream.link}}">
             <span class="stream-name">
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cast" width="32" height="32"
                 viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
