@@ -41,15 +41,12 @@ for stream in data['streams']:
     write(tem('streamplayer').render(data=data, stream=stream), f'watch/{stream["link"]}')
 
 # Create and write liveset and individual video pages
-def liveset(sets):
-    for set in sets:
-        write(tem('liveset').render(data=data, set=set), f'sets/{set["link"]}')
-        for vid in set['videos']:
-            # Move some stuff around to make it fit with the player template
-            if 'poster' in set:
-                vid['poster'] = set['poster']
-            name = vid['name']
-            vid['name'] = name + ' @ ' + set['name']
-            write(tem('player').render(data=data, video=vid), f'watch/{set["link"]}/{name}')
-liveset(data['livesets_menu'])
-liveset(data['livesets_cards'])
+for set in data['livesets_menu']:
+    write(tem('liveset').render(data=data, set=set), f'sets/{set["link"]}')
+    for vid in set['videos']:
+        # Move some stuff around to make it fit with the player template
+        if 'poster' in set:
+            vid['poster'] = set['poster']
+        name = vid['name']
+        vid['name'] = name + ' @ ' + set['name']
+        write(tem('player').render(data=data, video=vid), f'watch/{set["link"]}/{name}')

@@ -974,27 +974,14 @@ livesets_cards:
   - name: "SuperSized KingsDay 2021"
     link: "SSKD2021"
     banner: "sskd2021banner.jpg" # The banner displayed on the home page
-    poster: "https://cdn.bluecrazii.nl/supersizedkingsday2021.jpg"
-    videos:
-      - name: "DJ Jantje"
-        url: "SSKD2021/DJ Jantje @ Supersized Kingsday 2021 (2021-04-27)"
-        videotype: "mkv"
-      - name: "Deepack"
-        url: "SSKD2021/Deepack @ Supersized Kingsday 2021 (2021-04-27)"
-        videotype: "mkv"
-      - name: "Ransom"
-        url: "SSKD2021/Ransom @ Supersized Kingsday 2021 (2021-04-27)"
-        videotype: "mkv"
 
   - name: "Rebirth 2021"
     link: "rebirth2021"
     banner: "REBiRTH-Festival-Livestream.jpg"
-    videos: []
 
   - name: "HSU LIVE"
     link: "HSU"
     banner: "HSU-.webp"
-    videos: []
 
 # A list of streams displayed on the home page and in the navbar,
 # see livesets_menu for details on most of their properties
