@@ -27,7 +27,7 @@
       <a class="navbar-item" href="/">
         <span class="logo">BlueCrazii.nl</span>
       </a>
-      <div class="navbar-burger" data-target="navbarContent">
+      <div class="navbar-burger" id="navbarBurger" data-target="navbarContent">
         <span></span>
         <span></span>
         <span></span>
@@ -64,6 +64,23 @@
         <a class="navbar-item" href="{{data.statusurl}}">Server Status</a>
       </div>
     </div>
+
+    <script>
+      // This script is responsible for navbar burger interactivity.
+      // It's inline in HTML to prevent loading another JS file just for this
+      const burger = document.getElementById('navbarBurger');
+      const menu = document.getElementById('navbarContent');
+
+      burger.onclick = () => {
+        if (burger.classList.contains('is-active')) {
+          burger.classList.remove('is-active');
+          menu.classList.remove('is-active');
+        } else {
+          burger.classList.add('is-active');
+          menu.classList.add('is-active');
+        }
+      };
+    </script>
   </nav>
 
   {% block content %}{% endblock %}
