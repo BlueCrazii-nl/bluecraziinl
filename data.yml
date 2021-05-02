@@ -992,13 +992,13 @@ streams:
     # (this format should be identical to what BlueFlix 2.0 uses)
     videourl: "livestreams/hls/F1NL" 
     filetype: "m3u8" # File type of CDN video
-    poster: "https://bluecrazii.nl/logo.png"
+    poster: "https://cdn.bluecrazii.nl/logo.png"
 
   - name: "Formula1 ENG"
     link: "f1eng"
     videourl: "livestreams/hls/F1ENG"
     filetype: "m3u8"
-    poster: "https://bluecrazii.nl/logo.png"
+    poster: "https://cdn.bluecrazii.nl/logo.png"
 
   - name: "Festival"
     link: "festival"
