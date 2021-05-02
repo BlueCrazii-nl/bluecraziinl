@@ -31,16 +31,16 @@ livesets_menu:
     - name: Act of Rage
       url: DEFQON.1 2020/Act of Rage @ Defqon.1 at Home, Blue (2020-06-27)
       videotype: mkv
-    - name: 'BLACK '
+    - name: 'BLACK Saturday'
       url: DEFQON.1 2020/BLACK  @ DEFQON.1 @ HOME
       videotype: mkv
-    - name: BLACK
+    - name: BLACK Sunday
       url: DEFQON.1 2020/BLACK @ DEFQON.1 @ HOME1
       videotype: mkv
-    - name: BLUE
+    - name: BLUE Saturday
       url: DEFQON.1 2020/BLUE @ DEFQON.1 @ HOME
       videotype: mkv
-    - name: BLUE
+    - name: BLUE Sunday
       url: DEFQON.1 2020/BLUE @ DEFQON.1 @ HOME1
       videotype: mkv
     - name: D-BLOCK & S-TE-FAN
@@ -67,10 +67,10 @@ livesets_menu:
     - name: MAGENTA
       url: DEFQON.1 2020/MAGENTA @ DEFQON.1 @ HOME
       videotype: mkv
-    - name: MIDNIGHT MAYHAM
+    - name: MIDNIGHT MAYHAM Friday
       url: DEFQON.1 2020/MIDNIGHT MAYHAM @ DEFQON.1 @ HOME
       videotype: mkv
-    - name: MIDNIGHT MAYHEM
+    - name: MIDNIGHT MAYHEM Saturday
       url: DEFQON.1 2020/MIDNIGHT MAYHEM @ DEFQON.1 @ HOME1
       videotype: mkv
     - name: N-VITRAL
@@ -91,10 +91,10 @@ livesets_menu:
     - name: Pavo
       url: DEFQON.1 2020/Pavo @ Defqon.1 at Home
       videotype: mkv
-    - name: RED
+    - name: RED Saturday
       url: DEFQON.1 2020/RED @ DEFQON.1 @ HOME
       videotype: mkv
-    - name: RED
+    - name: RED Sunday
       url: DEFQON.1 2020/RED @ DEFQON.1 @ HOME1
       videotype: mkv
     - name: SEFA
@@ -124,10 +124,10 @@ livesets_menu:
     - name: The Viper
       url: DEFQON.1 2020/The Viper @ Defqon.1 at Home
       videotype: mkv
-    - name: UV
+    - name: UV Saturday
       url: DEFQON.1 2020/UV @ DEFQON.1 @ HOME
       videotype: mkv
-    - name: UV
+    - name: UV Sunday
       url: DEFQON.1 2020/UV @ DEFQON.1 @ HOME1
       videotype: mkv
     - name: WARRIOR WORKOUT
@@ -377,9 +377,6 @@ livesets_menu:
     - name: COONE - ALBUM SHOWCASE
       url: NYE/COONE - ALBUM SHOWCASE @ Tomorrowland (31-12-2020)
       videotype: mp4
-    - name: Coone Album Showcase
-      url: NYE/Coone Album Showcase @ Tomorrowland (31-12-2020)
-      videotype: mp4
     - name: D-Block & S-te-Fan
       url: NYE/D-Block & S-te-Fan @ QONNECT New Year's Eve Special (2020-12-31)
       videotype: mkv
@@ -402,30 +399,18 @@ livesets_menu:
       url: NYE/Dither @ QONNECT New Year's Eve Special (2020-12-31)
       videotype: mkv
     - name: GPF-NYE
-      url: NYE/GPF-NYE
-      videotype: mkv
-    - name: GPF-NYE1
       url: NYE/GPF-NYE1
       videotype: mkv
     - name: GROUND ZERO
       url: NYE/GROUND ZERO
       videotype: mp4
     - name: H4H NYE
-      url: NYE/H4H NYE
-      videotype: mkv
-    - name: H4H NYE1
       url: NYE/H4H NYE1
       videotype: mkv
     - name: HDKTN_NYE
-      url: NYE/HDKTN_NYE
-      videotype: mkv
-    - name: HDKTN_NYE1
       url: NYE/HDKTN_NYE1
       videotype: mkv
     - name: HSU-LIVE
-      url: NYE/HSU-LIVE
-      videotype: mkv
-    - name: HSU-LIVE1
       url: NYE/HSU-LIVE1
       videotype: mkv
     - name: Headhunterz
@@ -438,19 +423,16 @@ livesets_menu:
       url: NYE/IMPERATORZ NYE
       videotype: mkv
     - name: I am hardstyle
-      url: NYE/I am hardstyle @ Tomorrowland (31-12-2020)
+      url: NYE/I am hardstyle at Tomorrowland (31-12-2020)
       videotype: mp4
     - name: MultiGroov
       url: NYE/MultiGroov
       videotype: mp4
     - name: PRSPCT NYE
-      url: NYE/PRSPCT NYE
-      videotype: mkv
-    - name: PRSPCT NYE1
       url: NYE/PRSPCT NYE1
       videotype: mkv
-    - name: 'Q-dance Hardstyle Top 100 2020, Countdown & New Year Celebration '
-      url: NYE/Q-dance Hardstyle Top 100 2020, Countdown & New Year Celebration (2020-12-31)
+    - name: 'Q-dance Hardstyle Top 100 2020(2020-12-31)'
+      url: NYE/Q-dance Hardstyle Top 100 2020(2020-12-31)
       videotype: mkv
     - name: Ran-D & Hard Driver
       url: NYE/Ran-D & Hard Driver @ QONNECT New Year's Eve Special (2020-12-31)
@@ -462,7 +444,7 @@ livesets_menu:
       url: NYE/Sound Rush & KELTEK @ QONNECT New Year's Eve Special (2020-12-31)
       videotype: mkv
     - name: Sub Zero Project
-      url: NYE/Sub Zero Project @ Tomorrowland (31-12-2020)
+      url: NYE/Sub Zero Project at Tomorrowland (31-12-2020)
       videotype: mp4
     - name: TOF NYE
       url: NYE/TOF NYE
@@ -686,40 +668,40 @@ livesets_menu:
   - link: The First Dose
     name: Rebelion The first Dose 2020
     videos:
-    - name: Imperial
+    - name: Imperial-360
       url: The First Dose/Imperial @ Rebelion The first dose-360
       videotype: mkv
-    - name: Imperial
+    - name: Imperial-480
       url: The First Dose/Imperial @ Rebelion The first dose-480
       videotype: mkv
-    - name: Imperial
+    - name: Imperial-720
       url: The First Dose/Imperial @ Rebelion The first dose-720
       videotype: mkv
-    - name: Imperial
+    - name: Imperial-1080
       url: The First Dose/Imperial @ Rebelion The first dose
       videotype: mkv
-    - name: Rebelion
+    - name: Rebelion-360
       url: The First Dose/Rebelion @ Rebelion The first dose-360
       videotype: mkv
-    - name: Rebelion
+    - name: Rebelion-480
       url: The First Dose/Rebelion @ Rebelion The first dose-480
       videotype: mkv
-    - name: Rebelion
+    - name: Rebelion-720
       url: The First Dose/Rebelion @ Rebelion The first dose-720
       videotype: mkv
-    - name: Rebelion
+    - name: Rebelion-1080
       url: The First Dose/Rebelion @ Rebelion The first dose
       videotype: mkv
-    - name: Sound Rush
+    - name: Sound Rush-360
       url: The First Dose/Sound Rush @ Rebelion The first dose-360
       videotype: mkv
-    - name: Sound Rush
+    - name: Sound Rush-480
       url: The First Dose/Sound Rush @ Rebelion The first dose-480
       videotype: mkv
-    - name: Sound Rush
+    - name: Sound Rush-720
       url: The First Dose/Sound Rush @ Rebelion The first dose-720
       videotype: mkv
-    - name: Sound Rush
+    - name: Sound Rush-1080
       url: The First Dose/Sound Rush @ Rebelion The first dose
       videotype: mkv
   - link: Titanium
@@ -990,13 +972,13 @@ streams:
     link: "f1nl"
     # CDN video URI, will have filetype appended for default resolution while having '_{{res}}/index.{{filetype}}' appended for different resolutions
     # (this format should be identical to what BlueFlix 2.0 uses)
-    videourl: "livestreams/hls/F1NL" 
+    videourl: "livestreams/hlsout/F1NL" 
     filetype: "m3u8" # File type of CDN video
     poster: "https://cdn.bluecrazii.nl/logo.png"
 
   - name: "Formula1 ENG"
     link: "f1eng"
-    videourl: "livestreams/hls/F1ENG"
+    videourl: "livestreams/hlsout/F1ENG"
     filetype: "m3u8"
     poster: "https://cdn.bluecrazii.nl/logo.png"
 
