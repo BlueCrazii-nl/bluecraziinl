@@ -11,8 +11,12 @@
 <main class="container">
     <p class="title is-3">{{stream.name}}</p>
 
+    <audio controls class="player">
+        <source src="{{data.audiourl}}/{{ stream.videourl.split('/')[-1] }}" />
+    </audio>
+
     <video onloadstart="if (!window.__cfRLUnblockHandlers) return false; this.volume=0.030" poster="{{stream.poster}}"
-        id="video" class="video-js vjs-default-skin" controls preload="auto" data-setup='{"fluid": true}'
+        id="video" class="video-js vjs-default-skin player" controls preload="auto" data-setup='{"fluid": true}'
         data-cf-modified-9ff13887cd0d3fbc3966907d-="">
 
         <source src="{{data.cdnurl}}/{{stream.videourl}}.{{stream.filetype}}" type="application/x-mpegURL" label="auto"
