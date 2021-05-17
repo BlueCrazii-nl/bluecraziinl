@@ -949,21 +949,62 @@ livesets_menu:
     - name: Sound Rush
       url: rebirth2021/Sound Rush @ REBiRTH Festival 2021 Livestream (2021-04-10)
       videotype: mkv
+  - link: TTV50THA
+    name: 'TweekaTV 50TH Anniversary'
+    videos:
+    - name: BassBrain
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Bassbrain
+      videotype: mkv
+    - name: Da Tweekaz
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Da Tweekaz
+      videotype: mkv
+    - name: Sound Rush
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Sound Rush
+      videotype: mkv
+    - name: Wildstylez
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Wildstylez
+      videotype: mkv
+    - name: The Elite
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon The Elite
+      videotype: mkv
+    - name: Headhunterz
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Headhunterz
+      videotype: mkv
+    - name: Ran-D
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Ran-D
+      videotype: mkv
+    - name: Sub Zero Project
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Sub Zero Project
+      videotype: mkv
+    - name: Warface VS Killshot
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Warface VS Killshot
+      videotype: mkv
+    - name: Radical Redemption
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Radical Redemption
+      videotype: mkv
+    - name: Miss K8
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon Miss K8
+      videotype: mkv
+    - name: D-Fence
+      url: quarentine/TweekaTV 50th Anniversary/Tweeka TV - 50th Anniversary Marathon D-Fence
+      videotype: mkv
+
 
 # A list of livesets shown on the homepage,
 # see list above for details on most of their properties
 livesets_cards:
+  - name: "TweekaTV 50TH Anniversary"
+    link: "TTV50THA"
+    banner: "TTV50TH.jpg"
+    
   - name: "SuperSized KingsDay 2021"
     link: "SSKD2021"
-    banner: "sskd2021banner.jpg" # The banner displayed on the home page
+    banner: "sskd2021banner.jpg"
 
   - name: "Rebirth 2021"
     link: "rebirth2021"
     banner: "REBiRTH-Festival-Livestream.jpg"
 
-  - name: "HSU LIVE"
-    link: "HSU"
-    banner: "HSU-.webp"
 
 # A list of streams displayed on the home page and in the navbar,
 # see livesets_menu for details on most of their properties
@@ -994,6 +1035,23 @@ streams:
     filetype: "m3u8"
     poster: "https://www.movies4kids.co.uk/wp-content/uploads/2011/02/prates-caribbean.jpg"
 
+  - name: "INTENTS FESTIVAL Outdoor stage"
+    link: "IntentsOutdoor"
+    videourl: "livestreams/hls/IntentsOutdoor"
+    filetype: "m3u8"
+    poster: "https://www.intentsfestival.nl/wp-content/uploads/2020/11/eindshow-1200-1.jpg"
+    
+  - name: "INTENTS FESTIVAL Indoor stage"
+    link: "IntentsIndoor"
+    videourl: "livestreams/hls/IntentsIndoor"
+    filetype: "m3u8"
+    poster: "https://www.intentsfestival.nl/wp-content/uploads/2020/11/eindshow-1200-1.jpg"
+    
+  - name: "DEFQON.1 WEEKEND FESTIVAL"
+    link: "Defqon"
+    videourl: "livestreams/hls/Defqon"
+    filetype: "m3u8"
+    poster: "https://cdn.q-dance.com/l6hfsc63q612/550eUVnaqJiIA8Ru3SVVDm/54de5f86db62b89440ff34aedb137ad2/01-_DQH_1920x1080.png"
 # All resolutions that the streams are available in. Affects
 # generation of video sources
 resolutions: ["360", "480", "720", "1080"]
