@@ -10,3 +10,24 @@
 .player {
     width: 100%;
 }
+
+.theater-container-90 {
+    margin: 0 !important;
+    width: 90% !important;
+    max-width: 90% !important;
+    margin-left: 5% !important;
+}
+.theater-container-95 {
+    margin: 0 !important;
+    width: 95% !important;
+    max-width: 95% !important;
+    margin-left: 2.5% !important;
+}
+
+.theater {
+    width: 100%;
+}
+
+#theaterToggle {
+    display: block;
+}

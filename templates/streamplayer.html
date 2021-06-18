@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block content %}
-<main class="container">
+<main class="container" id="main">
     <p class="title is-3">{{stream.name}}</p>
 
     <audio controls class="player">
@@ -31,6 +31,26 @@
             <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
         </p>
     </video>
+
+    <a id="theaterToggle">Toggle Theater Mode</a>
+    
+    <script>
+        // This is inline in HTML to prevent loading another JS file just for this
+        const video = document.getElementById('video');
+        const main = document.getElementById('main');
+        const toggle = document.getElementById('theaterToggle');
+
+        toggle.onclick = () => {
+            if (video.classList.contains('theater')) {
+                video.classList.remove('theater');
+                main.classList.remove('theater-container-90');
+            } else {
+                video.classList.add('theater');
+                main.classList.add('theater-container-90');
+                video.scrollIntoView({ behavior: "smooth", block: "end", inline: "center" });
+            }
+        };
+    </script>
 </main>
 
 <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>

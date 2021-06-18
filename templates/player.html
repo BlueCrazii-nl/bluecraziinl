@@ -3,12 +3,32 @@
 {% block css %}player{% endblock %}
 
 {% block content %}
-<main class="container">
+<main class="container" id="main">
   <p class="title is-3">{{video.name}}</p>
 
-  <video class="video" poster="{{video.poster}}" controls preload="auto">
+  <video class="video" id="video" poster="{{video.poster}}" controls preload="auto">
     <source src="{{data.cdnurl}}/{{video.url}}.{{video.videotype}}" type="video/mp4" label="auto"
       res="1" />
   </video>
+
+  <a id="theaterToggle">Toggle Theater Mode</a>
+
+  <script>
+    // This is inline in HTML to prevent loading another JS file just for this
+    const video = document.getElementById('video');
+    const main = document.getElementById('main');
+    const toggle = document.getElementById('theaterToggle');
+
+    toggle.onclick = () => {
+      if (video.classList.contains('theater')) {
+        video.classList.remove('theater');
+        main.classList.remove('theater-container-95');
+      } else {
+        video.classList.add('theater');
+        main.classList.add('theater-container-95');
+        video.scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+      }
+    };
+  </script>
 </main>
 {% endblock %}
