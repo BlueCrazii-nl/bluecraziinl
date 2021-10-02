@@ -1,6 +1,7 @@
 cdnurl: "https://cdn.bluecrazii.nl" # Full URL of the CDN without trailing '/'
 audiourl: "https://audio.bluecrazii.nl" # Full URL of the audio server without trailing '/'
 statusurl: "https://status.bluecrazii.nl" # Full URL of the 'Server Status' navbar link
+statsurl: "https://viewers.bluecrazii.nl" # Full URL of the viewer stats service without trailing '/'
 discord: 
   serverid: "NJPaABXuUy" # discord.gg server invite ID
   widget: "733034147106521110" # Discord widget id

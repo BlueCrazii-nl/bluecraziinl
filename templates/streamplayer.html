@@ -50,6 +50,15 @@
                 video.scrollIntoView({ behavior: "smooth", block: "end", inline: "center" });
             }
         };
+
+        setInterval(() => { // Ping watcher endpoint every 10 seconds
+            var url = "{{ data.statsurl }}/watcher";
+            var params = "stream={{ stream.link }}";
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", url, true);
+            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhr.send(params);
+        }, 10000);
     </script>
 </main>
 

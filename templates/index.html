@@ -46,7 +46,7 @@
             </svg>
             {{ stream.name }} Stream
           </span>
-          <span class="stream-status" data-videourl="{{data.cdnurl}}/{{stream.videourl}}.{{stream.filetype}}">Loading...</span>
+          <span class="stream-status" data-name="{{ stream.link }}" data-videourl="{{data.cdnurl}}/{{stream.videourl}}.{{stream.filetype}}">Loading...</span>
         </a>
         {% endfor %}
       </div>
