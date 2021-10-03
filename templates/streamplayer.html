@@ -35,7 +35,7 @@
     <a id="theaterToggle">Toggle Theater Mode</a>
     
     <script>
-        // This is inline in HTML to prevent loading another JS file just for this
+        // This is inline in HTML to prevent loading another JS file just for this and allow templating
         const video = document.getElementById('video');
         const main = document.getElementById('main');
         const toggle = document.getElementById('theaterToggle');
@@ -52,11 +52,11 @@
         };
 
         setInterval(() => { // Ping watcher endpoint every 10 seconds
-            var url = "{{ data.statsurl }}/watcher";
-            var params = "stream={{ stream.link }}";
-            var xhr = new XMLHttpRequest();
+            const url = "{{ data.statsurl }}/watcher";
+            const params = '{ "stream": "{{ stream.link }}" }';
+            const xhr = new XMLHttpRequest();
             xhr.open("POST", url, true);
-            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhr.setRequestHeader("Content-type", "application/json");
             xhr.send(params);
         }, 10000);
     </script>

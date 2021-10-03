@@ -1152,7 +1152,7 @@ streams:
     poster: "https://cdn.bluecrazii.nl/logo.png"
 
   - name: "Festival"
-    link: "festival"
+    link: "festivals"
     videourl: "livestreams/hls/Festivals"
     filetype: "m3u8"
     poster: "https://i0.wp.com/www.festivalling.com/wp-content/uploads/2020/11/Tomorrowland-NYE.jpg"
