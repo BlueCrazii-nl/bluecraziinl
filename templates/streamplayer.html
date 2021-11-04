@@ -3,54 +3,60 @@
 {% block css %}player{% endblock %}
 
 {% block head %}
-<link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher-vjs7@1.0.0/videojs-resolution-switcher.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/lib/clappr-playback-rate-plugin.min.js"></script>
+   <script>var player = new Clappr.Player({
+   source: "{{data.cdnurl}}/{{stream.videourl}}.{{stream.filetype}}",
+   parentId: "#player-wrapper",
+   plugins: [LevelSelector, PlaybackRatePlugin],
+   width: '90%',
+   height: '90%',
+   preload: "auto",
+   poster: '{{stream.poster}}',
+   levelSelectorConfig: {
+     title: 'Quality',
+     labels: {
+       0: '360', // 500kbps
+       1: '480P', // 1000kbps
+       2: '720P', // 4000kbps
+       3: '1080P', // 6000kbps
+     },
+     playbackRateConfig: {
+       defaultValue: 1,
+       options: [{
+           value: 0.5,
+           label: '0.5x'
+         },
+         {
+           value: 1,
+           label: '1x'
+         },
+         {
+           value: 2,
+           label: '2x'
+         },
+       ],
+       // rateSuffix: 'x',
+     },
+   },
+ });
+</script>
 {% endblock %}
 
 {% block content %}
-<main class="container" id="main">
+<main class="player" id="main">
     <p class="title is-3">{{stream.name}}</p>
-
+	<center>
+      <div id="player-wrapper"></div>
+  </center>
+	
+	<br>
     <audio controls class="player">
         <source src="{{data.audiourl}}/{{ stream.videourl.split('/')[-1] }}" />
     </audio>
-
-    <video onloadstart="if (!window.__cfRLUnblockHandlers) return false; this.volume=0.030" poster="{{stream.poster}}"
-        id="video" class="video-js vjs-default-skin player" controls preload="auto" data-setup='{"fluid": true}'
-        data-cf-modified-9ff13887cd0d3fbc3966907d-="">
-
-        <source src="{{data.cdnurl}}/{{stream.videourl}}.{{stream.filetype}}" type="application/x-mpegURL" label="auto"
-            res="1" />
-
-        {% for res in stream.resolutions %}
-        <source src="{{data.cdnurl}}/{{stream.videourl}}_{{res}}/index.{{stream.filetype}}" type="application/x-mpegURL"
-            label="{{res}}P" res="{{loop.index0 + 2}}" />
-        {% endfor %}
-
-        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that
-            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-        </p>
-    </video>
-
-    <a id="theaterToggle">Toggle Theater Mode</a>
     
     <script>
-        // This is inline in HTML to prevent loading another JS file just for this and allow templating
-        const video = document.getElementById('video');
-        const main = document.getElementById('main');
-        const toggle = document.getElementById('theaterToggle');
-
-        toggle.onclick = () => {
-            if (video.classList.contains('theater')) {
-                video.classList.remove('theater');
-                main.classList.remove('theater-container-90');
-            } else {
-                video.classList.add('theater');
-                main.classList.add('theater-container-90');
-                video.scrollIntoView({ behavior: "smooth", block: "end", inline: "center" });
-            }
-        };
-
         setInterval(() => { // Ping watcher endpoint every 10 seconds
             const url = "{{ data.statsurl }}/watcher";
             const params = '{ "stream": "{{ stream.link }}" }';
@@ -62,7 +68,4 @@
     </script>
 </main>
 
-<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher-vjs7@1.0.0/videojs-resolution-switcher.js"></script>
-<script>videojs('video').videoJsResolutionSwitcher()</script>
 {% endblock %}
