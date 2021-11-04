@@ -1107,11 +1107,30 @@ livesets_menu:
     - name: Hard Driver (LIVE) @ Reverze 2021  
       url: Reverze 2021/Hard Driver (LIVE) @ Reverze 2021 (2021-09-18)
       videotype: mkv
+  - link: EDCLV2021
+    name: 'EDC Las Vegas 2021'
+    videos:
+    - name: Da Tweekaz
+      url: EDCLV2021/Da Tweekaz @ EDC Las Vegas 2021
+      videotype: mkv
+    - name: DJ Isaac 
+      url: EDCLV2021/DJ Isaac @ EDC Las Vegas 2021
+      videotype: mkv
+    - name: Lil Taxas
+      url: EDCLV2021/Lil Taxas @ EDC Las Vegas 20211
+      videotype: mkv
+    - name: Sub Zero Projet 
+      url: EDCLV2021/Sub Zero Projet @ EDC Las Vegas
+      videotype: mkv
 
 
 # A list of livesets shown on the homepage,
 # see list above for details on most of their properties
 livesets_cards:
+  - name: "ElectricDaisyCarnival Las Vegas 2021"
+    link: "EDCLV2021"
+    banner: "EDCLV2021.jpg"
+    
   - name: "Reverze 2021 Wake Of The Warrior"
     link: "Reverze2021"
     banner: "Reveze2021.jpg"
@@ -1141,16 +1160,22 @@ streams:
     link: "f1nl"
     # CDN video URI, will have filetype appended for default resolution while having '_{{res}}/index.{{filetype}}' appended for different resolutions
     # (this format should be identical to what BlueFlix 2.0 uses)
-    videourl: "livestreams/hlsout/F1NL" 
+    videourl: "livestreams/hls/F1NL" 
     filetype: "m3u8" # File type of CDN video
     poster: "https://cdn.bluecrazii.nl/logo.png"
 
   - name: "Formula1 ENG"
     link: "f1eng"
-    videourl: "livestreams/hlsout/F1ENG"
+    videourl: "livestreams/hls/F1ENG"
     filetype: "m3u8"
     poster: "https://cdn.bluecrazii.nl/logo.png"
 
+  - name: "Formula1 DATA"
+    link: "F1data"
+    videourl: "livestreams/hls/F1Data"
+    filetype: "m3u8"
+    poster: "https://cdn.bluecrazii.nl/logo.png"
+    
   - name: "Festival"
     link: "festivals"
     videourl: "livestreams/hls/Festivals"
@@ -1160,6 +1185,12 @@ streams:
   - name: "afterparty"
     link: "afterparty"
     videourl: "livestreams/hls/Afterparty"
+    filetype: "m3u8"
+    poster: "https://cdn.q-dance.com/l6hfsc63q612/5ZFeYpO1RC8cwok6CsqcA4/37f1ee63ea0f753ad42e3eb5826c4b3c/117796-0010_20130623225920_rutger_0406_zo.jpg?w=1440"
+    
+  - name: "Nascar"
+    link: "nascar"
+    videourl: "livestreams/hls/nascar"
     filetype: "m3u8"
     poster: "https://cdn.q-dance.com/l6hfsc63q612/5ZFeYpO1RC8cwok6CsqcA4/37f1ee63ea0f753ad42e3eb5826c4b3c/117796-0010_20130623225920_rutger_0406_zo.jpg?w=1440"
 # All resolutions that the streams are available in. Affects
