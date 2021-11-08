@@ -2,34 +2,55 @@
 {% block title %}{{ video.name }}{% endblock %}
 {% block css %}player{% endblock %}
 
-{% block content %}
-<script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-<script type="text/javascript" src="https://unpkg.com/plyr@3"></script>
-<link rel="stylesheet" href="https://unpkg.com/plyr@3/dist/plyr.css">
-
-<script>
-// Change the second argument to your options:
-// https://github.com/sampotts/plyr/#options
-const player = new Plyr('video');
-
-// Expose player so it can be used from the console
-window.player = player;
+{% block head %}
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/lib/clappr-playback-rate-plugin.min.js"></script>
+   <script>
+   var player = new Clappr.Player({
+   source: "{{data.cdnurl}}/{{video.url}}.{{video.videotype}}",
+   parentId: "#player-wrapper",
+   mimeType: 'application/x-mpegURL',
+   mimeType: 'video/mp4',
+   plugins: [LevelSelector, PlaybackRatePlugin],
+   width: '90%',
+   height: '90%',
+   levelSelectorConfig: {
+     title: 'Quality',
+     labels: {
+       0: '360', // 500kbps
+       1: '480P', // 1000kbps
+       2: '720P', // 4000kbps
+       3: '1080P', // 6000kbps
+     },
+     playbackRateConfig: {
+       defaultValue: 1,
+       options: [{
+           value: 0.5,
+           label: '0.5x'
+         },
+         {
+           value: 1,
+           label: '1x'
+         },
+         {
+           value: 2,
+           label: '2x'
+         },
+       ],
+       // rateSuffix: 'x',
+     },
+   },
+ });
 </script>
+{% endblock %}
 
-<style>
-.videoplayer {
-	margin: 50px auto;
-	max-width: 1440px;
-}
-</style>
-<main id="main">
-
-  <p class="title is-3">{{video.name}}</p>
-  
-  <div class="videoplayer">
-	<video  id="video" controls crossorigin playsinline  poster="{{video.poster}}">
-		 <source src="{{data.cdnurl}}/{{video.url}}.{{video.videotype}}" type="video/mp4">
-	</video>
-</div>
+{% block content %}
+<main class="player" id="main">
+    <p class="title is-3">{{video.name}}</p>
+	<center>
+      <div id="player-wrapper"></div>
+  </center>
 </main>
+
 {% endblock %}
